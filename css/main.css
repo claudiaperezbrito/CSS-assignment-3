@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-family: "Lora", "Palatino", "Big Caslon" serif;
+    font-family: "Lora", "Palatino", "Big Caslon", serif;
     font-size: 2rem;
     line-height: 3rem;
     padding-top: 1rem;
@@ -190,7 +190,7 @@ a:hover {
 
 @media screen and (max-width: 700px) {
 
-  #grid-container {
+  #container {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(9, auto);
     grid-template-areas:
@@ -204,29 +204,14 @@ a:hover {
         "typeface typeface"
         "footer footer";
 }
-
-div#container header img{
+header img{
   display:none;
 }
-p{
-  font-size: .25rem;
-}
-h2{
-  font-size: 1rem;
-}
-#tagline{
-  font-size: 1.8rem;
-}
+
 
 #pairing {
-  font-size:.5rem;
   padding-left: 2rem;
 }
-
-#arial{
-  font-size: .5rem;
-}
-#bobwhite-quail{}
 
 #readability {
   line-height: .9rem;
@@ -244,3 +229,5 @@ h2{
 #typeface {
 
 }
+
+} /* end of media query*/
